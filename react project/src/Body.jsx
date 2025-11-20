@@ -26,7 +26,7 @@ function Body(){
     ]
   return (
     <>
-    <h1>welcome to ReactJs Course in Kannada</h1>
+    <h1>STARTED TO LEARN REACT JS</h1>
     {
         cardArr.map((element,index)=>(
             <Cards title={element.title} desc={element.desc}/>
@@ -35,5 +35,6 @@ function Body(){
     </>
   )
 }
+
 
 export default Body;
